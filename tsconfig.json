@@ -1,0 +1,10 @@
+{
+  "include": ["index.ts"],
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "nodenext"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "esm-in-cjs-ts-demo",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prestart": "npm run build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "got": "^12.6.0",
+    "node-fetch": "^3.3.1",
+    "typescript": "^5.0.4"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": "20.0.0",
+    "npm": "9.6.4"
+  }
+}
