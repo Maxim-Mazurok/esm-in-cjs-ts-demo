@@ -4,7 +4,7 @@
     "lib": ["ESNext", "DOM"],
     "esModuleInterop": true,
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "nodenext"
   }
 }

@@ -1,4 +1,7 @@
 const urlToFetch = "https://api.github.com/users/Maxim-Mazurok";
+import { spawn } from "node:child_process";
+
+console.log(spawn);
 
 (async () => {
   const { default: fetch } = await import("node-fetch");
